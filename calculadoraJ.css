@@ -1,0 +1,61 @@
+CSS
+*{
+  margin: 0;
+  padding: 0;
+}
+body{ 
+  background-color: rgb(248, 218, 84);
+ text-align: center;
+ transform: scale(2); 
+  transform-origin: top center;
+}
+
+.button{
+  width: 32px;
+  background-color: #aaaaaa;
+  color: #000000;
+  border: 1px solid #131212;
+ 
+} 
+
+.button1{
+  width: 150px;
+  background-color: #da9999;
+  color: #000000;
+  border: 1px solid #131212;
+}.button1:active {
+  background-color: #d31b1b;
+  color: #fff;}
+  
+  .ponto{
+    width: 32px;
+    background-color: #868686;
+    color: #000000;
+    border: 1px solid #131212;
+  } 
+  .igual{
+    width: 32px;
+    background-color: #868686;
+    color: #000000;
+    border: 1px solid #131212;
+  }.igual:active{
+    background-color: #91ff00;
+  color: #fff;
+  }
+.operacao{
+  width: 42px;
+  background-color: #868686;
+  color: #000000;
+  border: 1px solid #131212;}
+
+  button:active {
+    background-color: #333333;
+    color: #fff;}
+
+input{
+  text-align: center;
+  width: 145px;
+  min-width: 100px; 
+  min-height: 25px; 
+  border-radius: 6px;
+}

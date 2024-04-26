@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="calculadoraJ.js"></script>
+    <link rel="stylesheet" href="calculadoraJ.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <h1>Calculadora</h1>
+    <label for="entrada" ></label>
+    <input  type="text"  id="display" ><br><br>
+    <button class="button1" type="submit"  id="clear" onclick="Clear()" >C</button>
+    <br><br>
+
+ <button class="operacao" type="button" onclick="adicionarOperacao('+')" >+</button>
+ <button class="button" type="button" onclick="adicionarNumero('1')" >1</button>
+ <button class="button" type="button" onclick="adicionarNumero('2')" >2</button>
+ <button class="button" type="button" onclick="adicionarNumero('3')" >3</button>
+ <br><br>
+ <button class="operacao" type="button" onclick="adicionarOperacao('-')" >-</button>
+ <button class="button" type="button" onclick="adicionarNumero('4')" >4</button>
+ <button class="button" type="button" onclick="adicionarNumero('5')" >5</button>
+ <button class="button" type="button" onclick="adicionarNumero('6')" >6</button>
+ <br><br>
+ <button class="operacao" type="button" onclick="adicionarOperacao('*')" >*</button>
+ <button class="button" type="button" onclick="adicionarNumero('7')" >7</button>
+ <button class="button" type="button" onclick="adicionarNumero('8')" >8</button>
+ <button class="button" type="button" onclick="adicionarNumero('9')" >9</button>
+ <br><br>
+ <button class="operacao" type="button" onclick="adicionarOperacao('/')" >/</button>
+ <button class="ponto" type="button" onclick="adicionarNumero('.')" >.</button>
+ <button class="button" type="button" onclick="adicionarNumero('0')" >0</button>
+ <button class="igual" type="button"  id="resul" onclick="Resultado()" >=</button>
+ <br><br>
+
+</body>
+</html>
